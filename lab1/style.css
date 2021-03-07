@@ -1,5 +1,5 @@
 body{
-    background: url(/3.jpg);
+    background: url(/3.jpg/);
 }
 p::first-line {
         text-indent: 30px;
