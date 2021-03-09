@@ -1,0 +1,69 @@
+@media (max-width:767px){
+    .firstSvg{
+        left: 34px;
+        top: 15px;
+        width: 396px;
+        height: 140px;
+       
+    }
+    .MenuItem{
+        visibility: hidden;
+    }
+    .LoginItem{
+        position: absolute;
+        left: 100%;
+        width: 148px;
+        height: 52px;
+        font-size: 30px;
+        top: 15px;
+        text-align: center;
+    }
+    .Three{
+        visibility: visible;
+        position: absolute;
+        left: 820px;
+        top: 85px;
+    }
+    .Buttons{
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .button1{
+        font-size: 25px;
+        text-align: center;
+        
+        position: relative;
+        padding: 10px 30px;
+          left: 100%;
+          margin-bottom: 20px;
+    }
+    .button2{
+        position: relative;
+        padding: 0px 10px;
+          left: 100%;
+    }
+    .headerTxt{
+        position: relative;
+        font-size: 80px;
+        margin-top: 174px;
+        text-align: center;
+        left: 70%;
+        right: 0;
+        width: 394px;
+        height: 186px;
+        line-height: 62px;
+    }
+    .headerTxt2{
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+
+        width: 382px;
+        height: 120px;
+        line-height: 30px;
+    }
+}

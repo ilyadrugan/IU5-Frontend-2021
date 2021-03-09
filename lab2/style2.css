@@ -1,0 +1,308 @@
+body{
+    background:  #181818;
+    font-family: 'Graphik LCG';
+    color: white;
+}
+.centerBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+}
+
+.firstSvg{
+    position: relative;
+    width: 186px;
+    height: 58px;
+    left: 281px;
+    top: 30px;
+}
+.MenuItem{
+    color: white;
+    font-size: 16px;
+    /* border: 1px solid white; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.blockMenu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 394px;
+    position: absolute;
+    align-items: center;
+    top: 56px;
+    left: 42%;
+}
+.LoginItem{
+    position: relative;
+    color: white;
+    border: 1px solid white;
+    padding: 16px 46px;
+    left: 326px;
+    font-size: 17px;
+}
+
+.headerTxt{
+    color: white;
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    margin-top: 214px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 710px;
+    height: 176px;
+    line-height: 88px;
+
+}
+.headerTxt2{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 37px;
+    width: 582px;
+    height: 60px;
+    line-height: 30px;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+
+    align-content: center;
+    width: 300px;
+    position: relative;
+    top: 192px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1{
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    right: 57px;
+    padding: 0px 30px;
+    width: 136px;
+    height: 65px;
+    background: #4452FE;
+    
+}
+.button2{
+    
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    left: 57px;
+    padding: 0px 30px;
+    border: 1px solid white;
+    width: 136px;
+    height: 65px;
+}
+.tb1{
+    position: absolute;
+    left:22px;
+    top: 24px;
+    width: 100px;
+}
+.tb2{
+    position: absolute;
+    left:2px;
+    top: 24px;
+    width: 150px;
+}
+
+.Features{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 500px;
+    position: absolute;
+    align-items: center;
+    top: 1756px;
+    left: 50%;
+}
+.FeaturesItem{
+    font-size: 16px;
+    line-height: 24px;
+    width: 249px;
+    height: 96px;
+    position: relative;
+    left: 170px;
+    margin-bottom: 45px;
+}
+
+.FeaturesHead{
+    font-size: 20px;
+    line-height: 30px;
+    width: 153px;
+    height: 60px;
+    position: relative;
+    margin-bottom: 20px;
+    left: 154px;
+}
+
+.ContentsBox{
+    background: white;
+    border-radius: 10px;
+    width: 476px;
+    height: 624px;
+    position: absolute;
+    top: 2922px;
+}
+.TestimonBox{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 430px;
+    height: 304px;
+    position: absolute;
+    top: 5700px;
+}
+.TestText{
+    font-size: 16px;
+    line-height: 24px;
+    width: 320px;
+    height: 168px;
+    position: relative;
+    left: 40px;
+    top: 120px;
+    letter-spacing: 0.1px;
+}
+.TestName{
+    color:white;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    left: 113px;
+    bottom: 126px;
+    letter-spacing: 0.2px;
+}
+.OpenType{
+    border-radius: 33px;
+    background: #343434;
+    width: 1219px;
+    height: 370px;
+    position: absolute;
+    top: 6630px;
+
+}
+
+.BotMenu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 400px;
+    right: 87px;
+}
+.BotMenuItem{
+    color: white;
+    font-size: 20px;
+    /* border: 1px solid white; */
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Contacts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    left: 100px;
+    top: 7287px;
+    position: absolute;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.socialItem{
+    margin: auto;
+}
+.Three{
+    position: absolute;
+    right: 30%;
+    visibility: hidden;
+}
+@media (max-width:1280px){
+    .firstSvg{
+        left: 14px;
+        top: 15px;
+        width: 256px;
+        height: 80px;
+       
+    }
+    .MenuItem{
+        visibility: hidden;
+    }
+    .LoginItem{
+        position: absolute;
+        left: 100%;
+    }
+    .Three{
+        visibility: visible;
+        position: absolute;
+        right: -200px;
+    }
+    .Buttons{
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .button1{
+        font-size: 25px;
+        text-align: center;
+        
+        position: relative;
+        padding: 10px 30px;
+          left: 100%;
+          margin-bottom: 20px;
+    }
+    .button2{
+        position: relative;
+        padding: 0px 10px;
+          left: 100%;
+    }
+    .headerTxt{
+        position: relative;
+        font-size: 52px;
+        margin-top: 174px;
+        text-align: center;
+        left: 70%;
+        right: 0;
+        width: 294px;
+        height: 186px;
+        line-height: 62px;
+    }
+    .headerTxt2{
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+
+        width: 382px;
+        height: 120px;
+        line-height: 30px;
+    }
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url("./GraphikLCG-Regular.ttf") format("truetype"); 
+    font-weight: 400;
+    font-style: normal;
+
+  }
